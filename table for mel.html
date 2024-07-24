@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my new form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1>FORM TO FILL</h1>
+<form method="post" action="">
+<body>
+
+
+<fieldset>
+    <legend>Your information</legend> <!--fieldset title-->
+    <label for="name">First name</label>
+    <input type="text" name="name" id="name" >      <br/>
+    <label for="frame">Last name</label>
+    <input type="number" name="fname" id="fname">   <br/>
+    <label for="tel">Telephone</label>
+    <input type="text" name="tel" id="tel">    <br/>
+
+    <label for="sex">Select sex</label>
+           <select name="sex"  id="sex"  required>
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+           </select><br/>
+
+
+        <label for="email">What is your e-mail ? </label>
+        <input type="email"  name="=email"  id="email" required/>
+<fieldset>
+
+
+    <fieldset>
+        <legend>Your Request</legend> <!--fieldset title-->
+
+
+
+        <p>
+            
+        Make a wish
+        <div class="try2">
+        <input type="radio" name="wish" id=" rich"><label for="rich">Be abroad and rich</label></div>
+       <div class="try3"> <input type="radio" name="wish" id="famous">  <label for="home">Be home and rich</label></div>
+        <div class="try4"><input type="radio" name="wish" id="else"><label for="else">else...</label>
+       </div>
+       <label for="age">AGE RANGE</label>
+         </p>
+
+
+
+
+         <p>
+            <label for="precision">if "else",precise</label><br>
+            <textarea name="precision" id="precision" cols="40" rows="4"></textarea>
+
+        </p>
+     </fieldset>
+     
+        
+     </body>
+</html>
+
+
